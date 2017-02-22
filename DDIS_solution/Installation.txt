@@ -1,0 +1,17 @@
+install opencv_2.4.12.
+
+add env variables (change the content according to the specific computer):
+	* OPENCV2 = D:\ToolKits\opencv_2.4.12\build
+	(if you choose a different path inside the OpenCV2 folder, should update the relevant property sheets in propertySheets folder)
+
+	* MATLAB_ROOT = C:\Program Files\MATLAB\R2014b
+
+add to path: 
+	%OPENCV2%\x64\vc12\bin
+
+Change the build configuration to x64 in visual studio's configuration manager:
+	Open the solution, go to solution properties --> Configuration Properties --> Configuration
+		verify the two projects are compiled for the same platform, x64. 
+		check both Release and Debug configurations
+	
+Originally compiled using visual studio 2013 (VC12)
