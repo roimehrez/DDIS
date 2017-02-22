@@ -63,16 +63,16 @@ Names{ind} = 'DDIS RGB';
 ind=ind+1;
 
 %-------------------------------------------------------------
-% if ~exist('net','var')
-%     [ net, gpuN ] = loadNet();    % loading imagenet-vgg-verydeep-19.mat
-% end
-% tic;
-% [heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'L2'); %core function
-% runtime(ind)=toc;
-% disArr{ind}=heatmap;
-% Rects{ind}=rectDDIS;
-% Names{ind} = 'DDIS deep L2';
-% ind=ind+1;
+if ~exist('net','var')
+    [ net, gpuN ] = loadNet();    % loading imagenet-vgg-verydeep-19.mat
+end
+tic;
+[heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'L2'); %core function
+runtime(ind)=toc;
+disArr{ind}=heatmap;
+Rects{ind}=rectDDIS;
+Names{ind} = 'DDIS deep L2';
+ind=ind+1;
 
 %-------------------------------------------------------------
 % if ~exist('net','var')
