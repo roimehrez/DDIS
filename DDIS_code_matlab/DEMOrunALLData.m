@@ -30,7 +30,6 @@ dataDir = fullfile('..', 'BBS_DATA', databaseFolder);
 addpath(genpath('..\DDIS_bin'));
 run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
 addpath(genpath('utils'));
-addpath(genpath('..\TreeCANN_code_20121022'));
 warning('off','MATLAB:colon:nonIntegerIndex');
 warning('off','MATLAB:dispatcher:nameConflict');
 

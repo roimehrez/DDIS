@@ -18,7 +18,6 @@ clear all;
 %% add paths
 addpath(genpath('..\DDIS_bin'));
 addpath(genpath('utils'));
-addpath(genpath('..\TreeCANN_code_20121022'));
 run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
 
 %% set params
