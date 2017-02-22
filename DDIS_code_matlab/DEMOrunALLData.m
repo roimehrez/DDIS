@@ -28,7 +28,7 @@ dataDir = fullfile('..', 'BBS_DATA', databaseFolder);
 
 %% add paths
 addpath(genpath('..\DDIS_bin'));
-run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
+%run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
 addpath(genpath('utils'));
 warning('off','MATLAB:colon:nonIntegerIndex');
 warning('off','MATLAB:dispatcher:nameConflict');
