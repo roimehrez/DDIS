@@ -18,7 +18,8 @@ clear all;
 %% add paths
 addpath(genpath('..\DDIS_bin'));
 addpath(genpath('utils'));
-run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
+% setup matconvnet
+%run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
 
 %% set params
 dataDir = '.\ExampleImage\';%fullfile('..', 'BBS datasets', databaseFolder);
