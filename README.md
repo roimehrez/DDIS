@@ -11,10 +11,7 @@ DDIS - MATLAB Mex Version 1.0 (2017-02-21)
 Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial research use only.
 
 <div align='center'>
-  <img src='DDIS_code_matlab/ExampleImage/pair0001_frm1_nba.jpg' height="225px">
-  <img src='DDIS_code_matlab/ExampleImage/pair0001_frm2_nba.jpg' height="225px">
-  <img src='DDIS_code_matlab/ExampleImage/pair0001_DDIS_map.jpg' height="225px">
-  <img src='DDIS_code_matlab/ExampleImage/pair0001_DDIS_results.jpg' height="225px">
+  <img src='example.jpg' height="500px">
 </div>
 
   
@@ -98,7 +95,7 @@ core functions:
 [4] MatConvNet: CNNs for MATLAB. url: http://www.vlfeat.org/matconvnet/
 
 
-Version History
+## Version History
 
 * Wish list (to be added soon): 
    Scale and aspect ratio
