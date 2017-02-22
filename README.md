@@ -18,7 +18,7 @@ Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial res
 
 ## Background
 
-This code implements a fast Template Matching in the wild algorithm as part of research at the Technion.
+This code implements a fast Template Matching in the wild algorithm.
 
 The algorithm solves the following problem: for each image I and a template T we calculate likelihood map of the template location in the image. We calculate the map using a raster scan over the image. DDIS (Deformable Diversity Similarity) done as the similarity measure between each sub window and the template.
 For more information see:
