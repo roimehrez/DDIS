@@ -1,9 +1,10 @@
 # Template Matching with Deformable Diversity Similarity
 <br>
-[Itamar Talmi],
+Itamar Talmi,
 [Roey Mechrez](http://cgm.technion.ac.il/people/Roey/),
 [Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
 <br>
+arXiv preprint arXiv:1612.02190
 
 
 DDIS - MATLAB Mex Version 1.0 (2017-02-21)
@@ -40,17 +41,20 @@ Please cite these paper if you use this code in an academic publication.
 ## Installation
 
 Dependencies:
- - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
- - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures.
+ 
  - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
             see https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
+			(provided under utils)
+ ### (optional) for deep features
+ - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
+ - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures.
  - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
             if L2 between deep features is desirable. Otherwise just use cosine distance.
 
 DDIS mex/C++ code:
 We provide rebuild mex functions in the bin folder, 
 tested using MATLAB 2016a and VS12 (2013)
-If you need to rebuild and compile see Installation.txt inside the code folder
+If you need to rebuild and compile see Installation.txt inside the DDIS_code folder
 
 --------------------------------------------------------------------------------------------------
 ## Use
