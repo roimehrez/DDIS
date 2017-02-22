@@ -21,9 +21,6 @@ addpath(genpath('utils'));
 run(fullfile(getenv('MATCONV18'),'matlab', 'vl_setupnn.m')) ;
 
 %% set params
-% clear all;
-dframe = 25;
-databaseFolder = 'originalCVPR';%sprintf('dfrm%d', dframe); %'originalCVPR';
 dataDir = '.\ExampleImage\';%fullfile('..', 'BBS datasets', databaseFolder);
 
 pz = 3; % non-overlapping patch size used for pixel descirption
@@ -37,7 +34,7 @@ colors([3 5 7 8] ,:)=[];
 pairNum = 1;
 swap = false;
 displayGT = true;
-[I,Iref,T,rectT,rectGT] = utils.loadImageAndTemplate(pairNum,dataDir, swap);%number-case number [I,Iref,T,rectT,gtRect]
+[I,Iref,T,rectT,rectGT] = utils.loadImageAndTemplate(pairNum,dataDir, swap); % more examples can be found in the BBS datasetes
 
 % can dynamically load Template and Target image using:
 % [I,Iref,T,rectT,rectGT] = utils.loadImageAndTemplateDynamic( [image1], [image2] );
@@ -51,7 +48,7 @@ disArr = {};
 Rects = {};
 Names = {};
 ind=1;
-%% run
+%% run (ucomment the different methods to run them)
 
 %-------------------------------------------------------------
 tic;
@@ -63,16 +60,16 @@ Names{ind} = 'DDIS RGB';
 ind=ind+1;
 
 %-------------------------------------------------------------
-if ~exist('net','var')
-    [ net, gpuN ] = loadNet();    % loading imagenet-vgg-verydeep-19.mat
-end
-tic;
-[heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'L2'); %core function
-runtime(ind)=toc;
-disArr{ind}=heatmap;
-Rects{ind}=rectDDIS;
-Names{ind} = 'DDIS deep L2';
-ind=ind+1;
+% if ~exist('net','var')
+%     [ net, gpuN ] = loadNet();    % loading imagenet-vgg-verydeep-19.mat
+% end
+% tic;
+% [heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'L2'); %core function
+% runtime(ind)=toc;
+% disArr{ind}=heatmap;
+% Rects{ind}=rectDDIS;
+% Names{ind} = 'DDIS deep L2';
+% ind=ind+1;
 
 %-------------------------------------------------------------
 % if ~exist('net','var')

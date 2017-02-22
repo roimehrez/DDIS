@@ -28,7 +28,7 @@ Installation
 --------------------------------------------------------------------------------------------------
 Dependencies:
  - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
- - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
+ - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures.
  - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
             see https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
  - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
@@ -60,7 +60,7 @@ License
    The Software is provided "as is", without warranty of any kind.
 
 --------------------------------------------------------------------------------------------------
-REFERENCES
+CODE REFERENCES
 --------------------------------------------------------------------------------------------------
 Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. Url: http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html
 
