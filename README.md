@@ -18,7 +18,7 @@ Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial res
 </div>
 
   
---------------------------------------------------------------------------------------------------
+
 ## Background
 
 This code implements a fast Template Matching in the wild algorithm as part of research at the Technion.
@@ -37,26 +37,30 @@ For more information see:
 https://arxiv.org/abs/1612.02190
 Please cite these paper if you use this code in an academic publication.
 
---------------------------------------------------------------------------------------------------
-## Installation
 
-Dependencies:
- 
- - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
-            see https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
-			(provided under utils)
- ### (optional) for deep features
- - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
- - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures.
- - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
-            if L2 between deep features is desirable. Otherwise just use cosine distance.
+## Installation
 
 DDIS mex/C++ code:
 We provide rebuild mex functions in the bin folder, 
 tested using MATLAB 2016a and VS12 (2013)
 If you need to rebuild and compile see Installation.txt inside the DDIS_code folder
 
---------------------------------------------------------------------------------------------------
+### Dependencies:
+ 
+ - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
+            see https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
+			(provided under utils)
+			
+### (optional) for deep features
+ 
+ - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
+ - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures.
+ - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
+            if L2 between deep features is desirable. Otherwise just use cosine distance.
+
+
+
+
 ## Use
 
 To run one pair of images use 
@@ -71,7 +75,7 @@ core functions:
  - computeDDIS.m - using RGB patches
  - computeDDIS_deep.m - using deep features patches
 
---------------------------------------------------------------------------------------------------
+
 ## License
 
    This software is provided under the provisions of the Lesser GNU Public License (LGPL). 
@@ -82,7 +86,7 @@ core functions:
 
    The Software is provided "as is", without warranty of any kind.
 
---------------------------------------------------------------------------------------------------
+
 ## Code References
 
 [1] Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. Url: http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html
@@ -93,7 +97,7 @@ core functions:
 
 [4] MatConvNet: CNNs for MATLAB. url: http://www.vlfeat.org/matconvnet/
 
---------------------------------------------------------------------------------------------------
+
 Version History
 
 * Wish list (to be added soon): 
