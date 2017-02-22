@@ -55,8 +55,14 @@ If you need to rebuild and compile see Installation.txt inside the code folder
 --------------------------------------------------------------------------------------------------
 ## Use
 --------------------------------------------------------------------------------------------------
-To run one pair of images use DEMOrun.m
-to run on the entire dataset use DEMOrunALLData.m
+To run one pair of images use 
+```
+DEMOrun.m
+```
+to run on the entire dataset use 
+```
+DEMOrunALLData.m
+```
 core functions:
  - computeDDIS.m - using RGB patches
  - computeDDIS_deep.m - using deep features patches
@@ -75,13 +81,13 @@ core functions:
 --------------------------------------------------------------------------------------------------
 ## Code References
 --------------------------------------------------------------------------------------------------
-Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. Url: http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html
+[1] Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. Url: http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html
 
-Olonetsky, Igor, and Shai Avidan. "Treecann-kd tree coherence approximate nearest neighbor algorithm." In European Conference on Computer Vision, pp. 602-615. Springer Berlin Heidelberg, 2012. url: https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
+[2] Olonetsky, Igor, and Shai Avidan. "Treecann-kd tree coherence approximate nearest neighbor algorithm." In European Conference on Computer Vision, pp. 602-615. Springer Berlin Heidelberg, 2012. url: https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
 
-Muja, Marius, and David G. Lowe. "Fast approximate nearest neighbors with automatic algorithm configuration." VISAPP (1) 2, no. 331-340 (2009): 2. url: http://www.cs.ubc.ca/research/flann/
+[3] uja, Marius, and David G. Lowe. "Fast approximate nearest neighbors with automatic algorithm configuration." VISAPP (1) 2, no. 331-340 (2009): 2. url: http://www.cs.ubc.ca/research/flann/
 
-MatConvNet: CNNs for MATLAB. url: http://www.vlfeat.org/matconvnet/
+[4] MatConvNet: CNNs for MATLAB. url: http://www.vlfeat.org/matconvnet/
 
 --------------------------------------------------------------------------------------------------
 Version History
