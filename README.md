@@ -1,8 +1,19 @@
-Template Matching with Deformable Diversity Similarity
-=========================================================================
-DDIS - MATLAB Mex Version 1.0 (2017-02-21)
+# Template Matching with Deformable Diversity Similarity
+<br>
+[Itamar Talmi](),
+[Roey Mechrez](http://cgm.technion.ac.il/people/Roey/),
+[Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
+<br>
 
-  Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial research use only.
+
+DDIS - MATLAB Mex Version 1.0 (2017-02-21)
+Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial research use only.
+
+<div align='center'>
+  <img src='DDIS_code_matlab/ExampleImage/pair0001_frm1_nba.jpg' height="225px">
+  <img src='DDIS_code_matlab/ExampleImage/pair0001_frm2_nba.jpg' height="225px">
+</div>
+
   
 --------------------------------------------------------------------------------------------------
 Background
