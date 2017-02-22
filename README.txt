@@ -28,6 +28,7 @@ Installation
 --------------------------------------------------------------------------------------------------
 Dependencies:
  - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
+ - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
  - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
             see https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
  - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional

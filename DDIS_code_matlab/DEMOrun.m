@@ -33,9 +33,6 @@ colors = distinguishable_colors(23);
 colors(1:4 ,:)=[];
 colors([3 5 7 8] ,:)=[];
 
-if ~exist('net','var')
-    [ net, gpuN ] = loadNet();
-end
 %% load images and target location
 pairNum = 1;
 swap = false;
@@ -66,15 +63,21 @@ Names{ind} = 'DDIS RGB';
 ind=ind+1;
 
 %-------------------------------------------------------------
-tic;
-[heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'L2'); %core function
-runtime(ind)=toc;
-disArr{ind}=heatmap;
-Rects{ind}=rectDDIS;
-Names{ind} = 'DDIS deep L2';
-ind=ind+1;
+% if ~exist('net','var')
+%     [ net, gpuN ] = loadNet();    % loading imagenet-vgg-verydeep-19.mat
+% end
+% tic;
+% [heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'L2'); %core function
+% runtime(ind)=toc;
+% disArr{ind}=heatmap;
+% Rects{ind}=rectDDIS;
+% Names{ind} = 'DDIS deep L2';
+% ind=ind+1;
 
 %-------------------------------------------------------------
+% if ~exist('net','var')
+%     [ net, gpuN ] = loadNet();    % loading imagenet-vgg-verydeep-19.mat
+% end
 % tic;
 % [heatmap, rectDDIS]   = computeDDIS_deep(I,T, net, gpuN, 'dotP'); %core function
 % runtime(ind) = toc;
