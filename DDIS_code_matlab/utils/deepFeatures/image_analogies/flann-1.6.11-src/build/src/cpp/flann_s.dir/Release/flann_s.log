@@ -1,0 +1,86 @@
+﻿Build started 19/03/2014 16:26:39.
+     1>Project "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\cpp\flann_s.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\lib\Release\".
+       InitializeBuildStatus:
+         Creating "flann_s.dir\Release\flann_s.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/src/cpp/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\cpp\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\cpp\Release".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D FLANN_STATIC /D _FLANN_VERSION=1.6.11 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"flann_s.dir\Release\\" /Fd"flann_s.dir\Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\cpp\flann\flann.cpp ..\..\..\src\cpp\flann\nn\index_testing.cpp ..\..\..\src\cpp\flann\util\logger.cpp ..\..\..\src\cpp\flann\util\random.cpp ..\..\..\src\cpp\flann\util\saving.cpp  -w 
+     1>cl : Command line warning D9025: overriding '/W3' with '/w'
+         flann.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(163): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(247) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<DistanceType&,int&>(_Other1,_Other2)' being compiled
+                 with
+                 [
+                     _Ty1=float,
+                     _Ty2=unsigned int,
+                     DistanceType=double,
+                     _Other1=double &,
+                     _Other2=int &
+                 ]
+                 C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp\flann/util/result_set.h(366) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<DistanceType&,int&>(_Other1,_Other2)' being compiled
+                 with
+                 [
+                     _Ty1=float,
+                     _Ty2=unsigned int,
+                     DistanceType=double,
+                     _Other1=double &,
+                     _Other2=int &
+                 ]
+                 C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp\flann/util/result_set.h(363) : while compiling class template member function 'void flann::RadiusResultVector<DistanceType>::addPoint(DistanceType,int)'
+                 with
+                 [
+                     DistanceType=double
+                 ]
+                 c:\users\gali\google drive\software\image_analogies\flann-1.6.11-src\src\cpp\flann\flann.hpp(227) : see reference to class template instantiation 'flann::RadiusResultVector<DistanceType>' being compiled
+                 with
+                 [
+                     DistanceType=double
+                 ]
+                 c:\users\gali\google drive\software\image_analogies\flann-1.6.11-src\src\cpp\flann\flann.hpp(207) : while compiling class template member function 'int flann::Index<Distance>::radiusSearch(const flann::Matrix<T> &,flann::Matrix<int> &,flann::Matrix<T> &,float,const flann::SearchParams &)'
+                 with
+                 [
+                     Distance=flann::L2<double>,
+                     T=double
+                 ]
+                 ..\..\..\src\cpp\flann\flann.cpp(86) : see reference to class template instantiation 'flann::Index<Distance>' being compiled
+                 with
+                 [
+                     Distance=flann::L2<double>
+                 ]
+                 ..\..\..\src\cpp\flann\flann.cpp(110) : see reference to function template instantiation 'flann_index_t __flann_build_index<flann::L2<T>>(double *,int,int,float *,FLANNParameters *,Distance)' being compiled
+                 with
+                 [
+                     T=double,
+                     Distance=flann::L2<double>
+                 ]
+                 ..\..\..\src\cpp\flann\flann.cpp(148) : see reference to function template instantiation 'flann_index_t _flann_build_index<double>(T *,int,int,float *,FLANNParameters *)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+         index_testing.cpp
+         logger.cpp
+         random.cpp
+         saving.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\lib\Release\flann_s.lib" /NOLOGO flann_s.dir\Release\flann.obj
+         flann_s.dir\Release\index_testing.obj
+         flann_s.dir\Release\logger.obj
+         flann_s.dir\Release\random.obj
+         flann_s.dir\Release\saving.obj
+         flann_s.vcxproj -> C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\lib\Release\flann_s.lib
+       FinalizeBuildStatus:
+         Deleting file "flann_s.dir\Release\flann_s.unsuccessfulbuild".
+         Touching "flann_s.dir\Release\flann_s.lastbuildstate".
+     1>Done Building Project "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\cpp\flann_s.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.95

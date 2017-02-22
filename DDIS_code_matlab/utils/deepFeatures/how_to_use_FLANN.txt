@@ -1,0 +1,6 @@
+
+            k=5
+            params.algorithm = 'kdtree';
+            params.trees = 8;
+            params.checks = 64;
+            [listP, distP] = flann_search(sourchP',targetP',k,params);

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\..\doc\CMakeLists.txt" />
+    <CustomBuild Include="..\CMakeFiles\7d67bf58bf9d7716744ce2fc63257495\cmake-gui.eps.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5d71ad82c63b74136e3a86fc3af17747\manual.tex.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5d71ad82c63b74136e3a86fc3af17747\references.bib.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5d71ad82c63b74136e3a86fc3af17747\manual.dvi.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5d71ad82c63b74136e3a86fc3af17747\manual.ps.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5ea013d307317888160ae8eae8672d85\ps.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{897E72ED-6D49-49D6-84D8-D0A719ABAD75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

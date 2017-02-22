@@ -1,0 +1,16 @@
+﻿Build started 19/03/2014 16:27:51.
+     1>Project "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\matlab\mex_nearest_neighbors.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\mex_nearest_neighbors\mex_nearest_neighbors.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/src/matlab/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\matlab\CMakeFiles\generate.stamp is up-to-date.
+         Building MEX extension C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/src/matlab/nearest_neighbors.mexw64
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\mex_nearest_neighbors\mex_nearest_neighbors.unsuccessfulbuild".
+         Touching "x64\Release\mex_nearest_neighbors\mex_nearest_neighbors.lastbuildstate".
+     1>Done Building Project "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\src\matlab\mex_nearest_neighbors.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.57

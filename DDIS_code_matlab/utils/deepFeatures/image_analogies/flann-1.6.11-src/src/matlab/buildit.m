@@ -1,0 +1,1 @@
+mex -L/usr/local/lib -lflann -I/usr/local/include/ nearest_neighbors.cpp

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\matlab\CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\becc5797ad6ee2e8165a15015ae5ca42\nearest_neighbors.mexw64.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\493ce583eb4ffe841b727a668d4ddbb0\mex_nearest_neighbors.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\mex_nearest_neighbors" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{897E72ED-6D49-49D6-84D8-D0A719ABAD75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

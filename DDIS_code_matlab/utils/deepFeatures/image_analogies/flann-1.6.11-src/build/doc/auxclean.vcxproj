@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8C80323B-0394-43D6-A43E-54430AA122F5}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>auxclean</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src" "-BC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build" --check-stamp-file "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\references.bib;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src" "-BC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build" --check-stamp-file "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\references.bib;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src" "-BC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build" --check-stamp-file "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\references.bib;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src" "-BC:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build" --check-stamp-file "C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/doc/CMakeLists.txt;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindLATEX.cmake;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\references.bib;C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeFiles\5ea013d307317888160ae8eae8672d85\auxclean.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.aux" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.idx" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.ind"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/CMakeFiles/5ea013d307317888160ae8eae8672d85/auxclean.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\auxclean</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.aux" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.idx" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.ind"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/CMakeFiles/5ea013d307317888160ae8eae8672d85/auxclean.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\auxclean</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.aux" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.idx" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.ind"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/CMakeFiles/5ea013d307317888160ae8eae8672d85/auxclean.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\auxclean</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.aux" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.idx" "C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/doc/manual.ind"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/CMakeFiles/5ea013d307317888160ae8eae8672d85/auxclean.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gali\Google Drive\software\image_analogies\flann-1.6.11-src\build\doc\CMakeFiles\auxclean</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\auxclean" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/gali/Google Drive/software/image_analogies/flann-1.6.11-src/build/ZERO_CHECK.vcxproj">
+      <Project>8938A8AC-DADF-4DB3-8F96-61021A19748B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
