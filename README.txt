@@ -48,7 +48,7 @@ core functions:
  - computeDDIS_deep.m - using deep features patches
 
 --------------------------------------------------------------------------------------------------
-   License
+License
 --------------------------------------------------------------------------------------------------
    This software is provided under the provisions of the Lesser GNU Public License (LGPL). 
    see: http://www.gnu.org/copyleft/lesser.html.
@@ -59,7 +59,7 @@ core functions:
    The Software is provided "as is", without warranty of any kind.
 
 --------------------------------------------------------------------------------------------------
-   REFERENCES
+REFERENCES
 --------------------------------------------------------------------------------------------------
 Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. Url: http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html
 
