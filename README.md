@@ -11,7 +11,7 @@ DDIS - MATLAB Mex Version 1.0 (2017-02-21)
 Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial research use only.
 
 <div align='center'>
-  <img src='example.jpg' height="500px">
+  <img src='example.png' height="500px">
 </div>
 
   
