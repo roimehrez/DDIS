@@ -4,7 +4,7 @@ Itamar Talmi,
 [Roey Mechrez](http://cgm.technion.ac.il/people/Roey/),
 [Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
 <br>
-arXiv preprint arXiv:1612.02190
+to appear in CVPR 2017
 
 
 DDIS - MATLAB Mex Version 1.0 (2017-02-21)
