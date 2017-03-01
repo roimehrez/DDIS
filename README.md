@@ -6,6 +6,8 @@ Itamar Talmi,
 <br>
 to appear in CVPR 2017
 
+[The Project Page] (http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
+
 
 DDIS - MATLAB Mex Version 1.0 (2017-02-21)
 Copyright 2006-2017 Itamar Talmi and Roey Mechrez Licensed for noncommercial research use only.
