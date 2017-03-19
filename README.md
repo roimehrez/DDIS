@@ -47,12 +47,12 @@ If you need to rebuild and compile see Installation.txt inside the DDIS_code fol
 ### Dependencies:
  
  - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
-            see [[TreeCANN code]] (https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN)
+            see [[TreeCANN code]](https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN)
 			(provided under utils)
 			
 ### (optional) for deep features
  
- - MatConvNet: see [[MatConvNet code]] (http://www.vlfeat.org/matconvnet/install/)
+ - MatConvNet: see [[MatConvNet code]](http://www.vlfeat.org/matconvnet/install/)
  - imagenet-vgg-verydeep-19.mat should be download from [[vgg]] (http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures).
  - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
             if L2 between deep features is desirable. Otherwise just use cosine distance.
@@ -88,11 +88,11 @@ core functions:
 
 ## Code References
 
-[1] Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. Url: http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html
+[1] Dekel, Tali, Shaul Oron, Michael Rubinstein, Shai Avidan, and William T. Freeman. "Best-buddies similarity for robust template matching." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2021-2029. 2015. [url](http://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html)
 
-[2] Olonetsky, Igor, and Shai Avidan. "Treecann-kd tree coherence approximate nearest neighbor algorithm." In European Conference on Computer Vision, pp. 602-615. Springer Berlin Heidelberg, 2012. url: https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
+[2] Olonetsky, Igor, and Shai Avidan. "Treecann-kd tree coherence approximate nearest neighbor algorithm." In European Conference on Computer Vision, pp. 602-615. Springer Berlin Heidelberg, 2012. [url](https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN)
 
-[3] uja, Marius, and David G. Lowe. "Fast approximate nearest neighbors with automatic algorithm configuration." VISAPP (1) 2, no. 331-340 (2009): 2. url: http://www.cs.ubc.ca/research/flann/
+[3] uja, Marius, and David G. Lowe. "Fast approximate nearest neighbors with automatic algorithm configuration." VISAPP (1) 2, no. 331-340 (2009): 2. [url](http://www.cs.ubc.ca/research/flann/)
 
 [4] MatConvNet: CNNs for MATLAB. [url](http://www.vlfeat.org/matconvnet/)
 
