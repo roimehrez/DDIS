@@ -1,9 +1,8 @@
+
 # Template Matching with Deformable Diversity Similarity
-<br>
-Itamar Talmi,
-[Roey Mechrez](http://cgm.technion.ac.il/people/Roey/)
-[Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
-<br>
+
+Itamar Talmi,[Roey Mechrez](http://cgm.technion.ac.il/people/Roey/),[Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
+
 to appear in CVPR 2017
 
 [The Project Page](http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
