@@ -1,9 +1,7 @@
 
 # Template Matching with Deformable Diversity Similarity
 
-Itamar Talmi, [Roey Mechrez](http://cgm.technion.ac.il/people/Roey/), [Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
-
-to appear in CVPR 2017
+Itamar Talmi, [Roey Mechrez](http://cgm.technion.ac.il/people/Roey/), [Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/). to appear in CVPR 2017 (spotlight)
 
 [[The Project Page]](http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
 
@@ -53,7 +51,7 @@ If you need to rebuild and compile see Installation.txt inside the DDIS_code fol
 ### (optional) for deep features
  
  - MatConvNet: see [[MatConvNet code]](http://www.vlfeat.org/matconvnet/install/)
- - imagenet-vgg-verydeep-19.mat should be download from [[vgg]] (http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures).
+ - imagenet-vgg-verydeep-19.mat should be download from [[vgg]](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures).
  - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
             if L2 between deep features is desirable. Otherwise just use cosine distance.
 
