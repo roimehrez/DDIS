@@ -1,12 +1,12 @@
 # Template Matching with Deformable Diversity Similarity
 <br>
 Itamar Talmi,
-[Roey Mechrez](http://cgm.technion.ac.il/people/Roey/),
+[Roey Mechrez](http://cgm.technion.ac.il/people/Roey/)
 [Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
 <br>
 to appear in CVPR 2017
 
-[The Project Page] (http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
+[The Project Page](http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
 
 
 DDIS - MATLAB Mex Version 1.0 (2017-02-21)
