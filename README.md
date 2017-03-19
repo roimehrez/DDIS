@@ -1,11 +1,11 @@
 
 # Template Matching with Deformable Diversity Similarity
 
-Itamar Talmi,[Roey Mechrez](http://cgm.technion.ac.il/people/Roey/),[Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
+Itamar Talmi, [Roey Mechrez](http://cgm.technion.ac.il/people/Roey/), [Lihi Zelnik-Manor](http://lihi.eew.technion.ac.il/)
 
 to appear in CVPR 2017
 
-[The Project Page](http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
+[[The Project Page]](http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DDIS/)
 
 
 DDIS - MATLAB Mex Version 1.0 (2017-02-21)
@@ -33,7 +33,7 @@ For more information see:
 }
 ```
 
-https://arxiv.org/abs/1612.02190
+[[arXiv]](https://arxiv.org/abs/1612.02190)
 Please cite these paper if you use this code in an academic publication.
 
 
@@ -47,13 +47,13 @@ If you need to rebuild and compile see Installation.txt inside the DDIS_code fol
 ### Dependencies:
  
  - TreeCANN: kd tree Coherence Approximate Nearest Neighbor algorithm
-            see https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN
+            see [[TreeCANN code]] (https://github.com/uva-graphics/patchtable/tree/master/patchtable/TreeCANN)
 			(provided under utils)
 			
 ### (optional) for deep features
  
- - MatConvNet: see http://www.vlfeat.org/matconvnet/install/
- - imagenet-vgg-verydeep-19.mat should be download from http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures.
+ - MatConvNet: see [[MatConvNet code]] (http://www.vlfeat.org/matconvnet/install/)
+ - imagenet-vgg-verydeep-19.mat should be download from [[vgg]] (http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures).
  - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
             if L2 between deep features is desirable. Otherwise just use cosine distance.
 
@@ -94,7 +94,7 @@ core functions:
 
 [3] uja, Marius, and David G. Lowe. "Fast approximate nearest neighbors with automatic algorithm configuration." VISAPP (1) 2, no. 331-340 (2009): 2. url: http://www.cs.ubc.ca/research/flann/
 
-[4] MatConvNet: CNNs for MATLAB. url: http://www.vlfeat.org/matconvnet/
+[4] MatConvNet: CNNs for MATLAB. [url](http://www.vlfeat.org/matconvnet/)
 
 
 ## Version History
